@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/spacing_large" android:paddingTop="@dimen/spacing_large"
+    android:paddingBottom="@dimen/spacing_xlarge" android:background="?attr/colorSurfaceContainer"> <TextView
+    android:id="@+id/lecturers_section_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/profil_dosen_pengajar"
+    android:textAppearance="@style/TextAppearance.App.HeadlineMedium" android:textColor="?attr/colorOnSurface" android:layout_gravity="center_horizontal"
+    android:layout_marginBottom="@dimen/spacing_large"/> <androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/rv_lecturers"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+    android:clipToPadding="false" android:paddingHorizontal="@dimen/spacing_xsmall" tools:listitem="@layout/item_lecturer_profile"/>
+
+</LinearLayout>

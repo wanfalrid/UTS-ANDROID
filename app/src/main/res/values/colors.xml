@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="soft_blue_lightest">#F0F8FF</color> <color name="soft_blue_lighter">#E0F2FE</color> <color name="soft_blue_primary">#A5D8FF</color> <color name="soft_blue_darker">#7BB0FF</color> <color name="soft_blue_deep">#4A90E2</color> <color name="white">#FFFFFF</color>
+    <color name="off_white">#F8F9FA</color> <color name="cream_primary">#FFF9E6</color> <color name="cream_darker">#FFF2CC</color> <color name="pastel_green_lightest">#F0FFF4</color> <color name="pastel_green_lighter">#E6FFFA</color> <color name="pastel_green_primary">#A0E7D5</color> <color name="pastel_green_darker">#78D5C0</color> <color name="black">#000000</color>
+    <color name="grey_dark">#333333</color>
+    <color name="grey_medium">#757575</color>
+    <color name="grey_light">#BDBDBD</color>
+    <color name="grey_lighter">#E0E0E0</color>
+    <color name="grey_lightest">#EEEEEE</color> <color name="text_primary_light_theme">#212121</color> <color name="text_secondary_light_theme">#757575</color> <color name="text_primary_dark_theme">#E0E0E0</color> <color name="text_secondary_dark_theme">#BDBDBD</color> <color name="app_background_light">#F8F9FA</color> <color name="app_background_dark">#121212</color> <color name="card_background_light">#FFFFFF</color>
+    <color name="card_background_dark">#1E1E1E</color> <color name="accent_color">@color/soft_blue_darker</color> <color name="success_color">@color/pastel_green_darker</color>
+    <color name="error_color">#D32F2F</color>
+    <color name="warning_color">#FFA000</color>
+
+    <color name="gradient_start_blue">@color/soft_blue_lighter</color>
+    <color name="gradient_end_green">@color/pastel_green_lighter</color>
+    <color name="gradient_cta_start">@color/soft_blue_primary</color>
+    <color name="gradient_cta_end">@color/pastel_green_primary</color>
+    <color name="gradient_overlay_start">#00000000</color> <color name="gradient_overlay_center">#33000000</color> <color name="gradient_overlay_end">#80000000</color>   <color name="toolbar_background_light">@color/white</color>
+    <color name="toolbar_background_dark">@color/card_background_dark</color>
+    <color name="bottom_nav_background_light">@color/white</color>
+    <color name="bottom_nav_background_dark">@color/card_background_dark</color>
+    <color name="icon_tint_normal_light">@color/grey_medium</color>
+    <color name="icon_tint_normal_dark">@color/grey_light</color>
+    <color name="divider_color_light">@color/grey_lightest</color>
+    <color name="divider_color_dark">@color/grey_dark</color>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/Widget.App.CardView.Elevated"
+    app:cardUseCompatPadding="false"
+    android:layout_marginHorizontal="@dimen/spacing_small"
+    android:layout_marginVertical="@dimen/spacing_small">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/facility_image" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/placeholder_lab_rpl"
+            android:contentDescription="@string/gambar_fasilitas" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/soft_gradient_overlay_facility"/>
+
+        <TextView
+            android:id="@+id/facility_caption" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#99000000" android:padding="@dimen/spacing_medium"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_regular"
+            android:textAppearance="@style/TextAppearance.App.BodyMedium" tools:text="Laboratorium RPL"
+            android:gravity="center_horizontal"/>
+    </FrameLayout>
+</com.google.android.material.card.MaterialCardView>

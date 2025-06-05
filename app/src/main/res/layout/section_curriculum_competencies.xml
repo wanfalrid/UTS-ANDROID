@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/spacing_large"
+    android:paddingTop="@dimen/spacing_large"
+    android:paddingBottom="@dimen/spacing_xlarge"
+    android:background="?attr/colorSurfaceContainerHigh">
+
+    <TextView
+        android:id="@+id/curriculum_section_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kompetensi_amp_kurikulum_unggulan"
+        android:textAppearance="@style/TextAppearance.App.HeadlineMedium"
+        android:textColor="?attr/colorOnSurface"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/spacing_large"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout_competencies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.App.TabLayout"
+        app:tabMode="scrollable"
+        app:tabGravity="fill"
+        android:contentDescription="@string/content_desc_competency_tabs" /> <androidx.viewpager2.widget.ViewPager2
+    android:id="@+id/view_pager_competencies"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_marginTop="@dimen/spacing_medium"
+    android:background="?attr/colorSurface"
+    android:padding="@dimen/spacing_small"/>
+
+</LinearLayout>

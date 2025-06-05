@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/spacing_large"
+    android:paddingTop="@dimen/spacing_large"
+    android:paddingBottom="@dimen/spacing_xlarge" android:background="?attr/colorSurface"> <TextView
+    android:id="@+id/favorite_courses_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/mata_kuliah_favorit"
+    android:textAppearance="@style/TextAppearance.App.HeadlineMedium" android:textColor="?attr/colorOnSurface" android:layout_gravity="center_horizontal"
+    android:layout_marginBottom="@dimen/spacing_large"/> <androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/rv_favorite_courses"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+    app:spanCount="2" tools:listitem="@layout/item_favorite_course"
+    android:clipToPadding="false"
+    android:paddingBottom="@dimen/spacing_small"/> </LinearLayout>

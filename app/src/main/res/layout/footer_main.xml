@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/spacing_xlarge"
+    android:paddingBottom="@dimen/spacing_large"
+    android:paddingHorizontal="@dimen/spacing_large"
+    android:background="?attr/colorSurfaceContainerHigh">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+        android:layout_marginBottom="@dimen/spacing_large">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:orientation="vertical"
+            android:paddingStart="0dp" android:paddingEnd="@dimen/spacing_medium"> <TextView
+            android:id="@+id/footer_title_kontak"
+            style="@style/FooterTitleText"
+            android:text="@string/kontak_kami"/>
+
+            <TextView
+                android:id="@+id/footer_text_alamat"
+                style="@style/FooterBodyText"
+                android:text="@string/jurusan_rekayasa_perangkat_lunak_nkampus_pei_purwakarta_njl_industri_no_1_purwakarta"
+                android:textColor="#616161" />
+
+            <TextView
+                android:id="@+id/footer_text_email"
+                style="@style/FooterBodyText"
+                android:drawablePadding="@dimen/spacing_small"
+                android:text="@string/info_rpl_pei_ac_id"
+                android:textColor="#616161"
+                app:drawableTint="?attr/colorOnSurfaceVariant" />
+
+            <TextView
+                android:id="@+id/footer_text_telepon"
+                style="@style/FooterBodyText"
+                android:drawablePadding="@dimen/spacing_small"
+                android:text="@string/_0264_123_4567"
+                android:textColor="#616161"
+                app:drawableTint="?attr/colorOnSurfaceVariant" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/spacing_small"> <TextView
+            android:id="@+id/footer_title_link_cepat"
+            style="@style/FooterTitleText"
+            android:text="@string/link_cepat"/>
+
+            <TextView
+                android:id="@+id/footer_link_pendaftaran"
+                style="@style/FooterLinkText"
+                android:text="@string/pendaftaran_pmb"
+                android:textColor="#5C6BC0" />
+
+            <TextView
+                android:id="@+id/footer_link_kurikulum"
+                style="@style/FooterLinkText"
+                android:text="@string/detail_kurikulum"
+                android:textColor="#5C6BC0" />
+
+            <TextView
+                android:id="@+id/footer_link_blog"
+                style="@style/FooterLinkText"
+                android:minHeight="48dp"
+                android:text="@string/blog_jurusan"
+                android:textColor="#5C6BC0" />
+
+            <TextView
+                android:id="@+id/footer_link_faq"
+                style="@style/FooterLinkText"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:text="@string/faq"
+                android:textColor="#5C6BC0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/spacing_medium" android:paddingEnd="0dp"> <TextView
+            android:id="@+id/footer_title_media_sosial"
+            style="@style/FooterTitleText"
+            android:text="@string/ikuti_kami"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/spacing_small">
+
+                <ImageView
+                    android:id="@+id/footer_social_ig"
+                    style="@style/FooterSocialIcon"
+                    android:contentDescription="@string/instagram_rpl_pei"
+                    android:src="@drawable/ic_social_instagram_soft"
+                    tools:ignore="TouchTargetSizeCheck,ImageContrastCheck" />
+
+                <ImageView
+                    android:id="@+id/footer_social_tiktok"
+                    style="@style/FooterSocialIcon"
+                    android:contentDescription="@string/tiktok_rpl_pei"
+                    android:src="@drawable/ic_social_tiktok_soft"
+                    tools:ignore="TouchTargetSizeCheck,ImageContrastCheck" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:background="?attr/colorOutlineVariant"
+        android:layout_marginBottom="@dimen/spacing_medium"/>
+
+    <TextView
+        android:id="@+id/footer_copyright_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/_2025_jurusan_rekayasa_perangkat_lunak_kampus_pei_all_rights_reserved"
+        android:textAppearance="@style/TextAppearance.App.BodySmall"
+        android:textColor="#616161" />
+
+</LinearLayout>

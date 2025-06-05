@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/spacing_large"
+    android:paddingBottom="@dimen/spacing_xlarge"
+    android:paddingHorizontal="@dimen/spacing_large"
+    android:background="?attr/colorSurfaceContainer">
+
+    <TextView
+        android:id="@+id/industry_partners_section_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/didukung_mitra_industri_ternama"
+        android:textAppearance="@style/TextAppearance.App.HeadlineMedium"
+        android:textColor="?attr/colorOnSurface"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/spacing_xlarge"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:alignmentMode="alignMargins"
+        android:useDefaultMargins="true">
+
+        <ImageView
+            style="@style/PartnerLogoStyle"
+            android:layout_width="110dp"
+            android:contentDescription="@string/logo_oracle"
+            android:src="@drawable/ic_logo_oracle_monochrome" />
+
+        <ImageView
+            style="@style/PartnerLogoStyle"
+            android:layout_width="114dp"
+            android:contentDescription="@string/logo_dicoding"
+            android:src="@drawable/ic_logo_dicoding_monochrome" />
+
+        <ImageView
+            style="@style/PartnerLogoStyle"
+            android:layout_width="109dp"
+            android:contentDescription="@string/logo_bangkit"
+            android:src="@drawable/ic_logo_bangkit_monochrome" />
+    </GridLayout>
+</LinearLayout>

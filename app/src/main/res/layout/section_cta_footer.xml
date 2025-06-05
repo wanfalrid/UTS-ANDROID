@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingVertical="@dimen/spacing_xlarge"
+    android:paddingHorizontal="@dimen/spacing_large"
+    android:background="?attr/colorSecondaryContainer">
+
+    <TextView
+        android:id="@+id/cta_footer_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_medium"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.1"
+        android:text="@string/siap_menjadi_bagian_dari_inovator_teknologi_masa_depan"
+        android:textAppearance="@style/TextAppearance.App.HeadlineMedium"
+        android:textColor="#009688" />
+
+    <TextView
+        android:id="@+id/cta_footer_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_large"
+        android:gravity="center"
+        android:text="@string/bergabunglah_dengan_jurusan_rpl_pei_sekarang_dan_wujudkan_mimpimu"
+        android:textAppearance="@style/TextAppearance.App.BodyLarge"
+        android:textColor="#00796B" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_cta_gabung_sekarang"
+        style="@style/Widget.App.Button" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gabung_sekarang"
+        android:layout_marginBottom="@dimen/spacing_medium"
+        android:paddingHorizontal="@dimen/spacing_xlarge"
+        android:paddingVertical="@dimen/spacing_medium"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_cta_konsultasi_gratis"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/konsultasi_gratis"
+        android:textColor="#0277BD" /> </LinearLayout>

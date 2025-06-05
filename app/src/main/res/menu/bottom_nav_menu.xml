@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_item_home" android:icon="@drawable/ic_nav_home_24" android:title="@string/beranda" />
+    <item android:id="@+id/nav_item_kurikulum" android:icon="@drawable/ic_nav_kurikulum_24" android:title="@string/kurikulum" />
+    <item android:id="@+id/nav_item_dosen" android:icon="@drawable/ic_nav_dosen_24" android:title="@string/dosen" />
+    <item android:id="@+id/nav_item_fasilitas" android:icon="@drawable/ic_nav_fasilitas_24" android:title="@string/fasilitas" />
+    <item android:id="@+id/nav_item_testimoni" android:icon="@drawable/ic_nav_testimoni_24" android:title="@string/testimoni" />
+</menu>

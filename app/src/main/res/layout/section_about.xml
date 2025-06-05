@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/spacing_large"
+    android:paddingTop="@dimen/spacing_large"
+    android:paddingBottom="@dimen/spacing_xlarge" android:background="?attr/colorSurfaceContainer"> <TextView
+    android:id="@+id/about_section_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/tentang_jurusan_rpl"
+    android:textAppearance="@style/TextAppearance.App.HeadlineMedium" android:textColor="?attr/colorOnSurface" android:layout_gravity="center_horizontal"
+    android:layout_marginBottom="@dimen/spacing_large"/>
+
+    <TextView
+        android:id="@+id/visi_misi_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_xlarge"
+        android:gravity="center_horizontal"
+        android:lineSpacingMultiplier="@dimen/line_spacing_multiplier_body"
+        android:text="@string/ringkasan_visi_amp_misi_jurusan_rekayasa_perangkat_lunak_pei_adalah_untuk_menjadi_program_studi_unggul_dalam_menghasilkan_lulusan_yang_inovatif_kompeten_dan_berdaya_saing_global_di_bidang_rekayasa_perangkat_lunak"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.App.BodyLarge"
+        android:textColor="#616161"
+        tools:ignore="VisualLintLongText" />
+
+    <TextView
+        android:id="@+id/why_choose_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mengapa_memilih_rpl_pei"
+        android:textAppearance="@style/TextAppearance.App.TitleLarge" android:textColor="?attr/colorOnSurface"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/spacing_large"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false"> <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/todo"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingHorizontal="@dimen/spacing_small">
+
+        <ImageView
+            android:id="@+id/icon_reason_curriculum"
+            android:layout_width="@dimen/icon_size_xlarge"
+            android:layout_height="@dimen/icon_size_xlarge"
+            android:layout_marginBottom="@dimen/spacing_medium"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/ic_reason_curriculum"
+            app:tint="?attr/colorPrimary"
+            tools:ignore="ImageContrastCheck" />
+        <TextView
+            android:id="@+id/title_reason_curriculum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kurikulum_terkini"
+            android:textAppearance="@style/TextAppearance.App.TitleMedium" android:textColor="?attr/colorOnSurface"
+            android:textAlignment="center"
+            android:layout_marginBottom="@dimen/spacing_xsmall"/>
+
+        <TextView
+            android:id="@+id/desc_reason_curriculum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="@dimen/line_spacing_multiplier_body"
+            android:text="@string/selalu_update_dengan_standar_dan_kebutuhan_industri_teknologi_terkini"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.App.BodySmall"
+            android:textColor="#616161" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingHorizontal="@dimen/spacing_small">
+
+            <ImageView
+                android:id="@+id/icon_reason_lecturer"
+                android:contentDescription="@string/todo"
+                android:layout_width="@dimen/icon_size_xlarge"
+                android:layout_height="@dimen/icon_size_xlarge"
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:src="@drawable/ic_reason_lecturer"
+                app:tint="?attr/colorPrimary"
+                tools:ignore="ImageContrastCheck" />
+            <TextView
+                android:id="@+id/title_reason_lecturer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dosen_profesional"
+                android:textAppearance="@style/TextAppearance.App.TitleMedium"
+                android:textColor="?attr/colorOnSurface"
+                android:textAlignment="center"
+                android:layout_marginBottom="@dimen/spacing_xsmall"/>
+
+            <TextView
+                android:id="@+id/desc_reason_lecturer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="@dimen/line_spacing_multiplier_body"
+                android:text="@string/pengajar_ahli_dari_praktisi_industri_dan_akademisi_berpengalaman"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.App.BodySmall"
+                android:textColor="#616161" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.PeiRpl" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/soft_blue_primary</item>
+        <item name="colorOnPrimary">@color/black</item> <item name="colorPrimaryContainer">@color/soft_blue_lighter</item>
+        <item name="colorOnPrimaryContainer">@color/soft_blue_deep</item>
+
+        <item name="colorSecondary">@color/pastel_green_primary</item>
+        <item name="colorOnSecondary">@color/black</item> <item name="colorSecondaryContainer">@color/pastel_green_lighter</item>
+        <item name="colorOnSecondaryContainer">@color/pastel_green_darker</item>
+
+        <item name="colorTertiary">@color/soft_blue_darker</item> <item name="colorOnTertiary">@color/white</item>
+        <item name="colorTertiaryContainer">@color/soft_blue_lightest</item>
+        <item name="colorOnTertiaryContainer">@color/soft_blue_deep</item>
+
+        <item name="colorError">@color/error_color</item> <item name="colorOnError">@color/white</item>
+        <item name="colorErrorContainer">#FFDAD6</item> <item name="colorOnErrorContainer">#410002</item> <item name="android:colorBackground">@color/app_background_light</item> <item name="colorSurface">@color/card_background_light</item> <item name="colorOnSurface">@color/text_primary_light_theme</item>
+        <item name="colorSurfaceVariant">@color/soft_blue_lightest</item> <item name="colorOnSurfaceVariant">@color/text_secondary_light_theme</item> <item name="colorSurfaceInverse">@color/grey_dark</item> <item name="colorOnSurfaceInverse">@color/off_white</item>
+
+        <item name="colorSurfaceContainerLowest">@color/white</item>
+        <item name="colorSurfaceContainerLow">@color/off_white</item> <item name="colorSurfaceContainer">@color/cream_primary</item> <item name="colorSurfaceContainerHigh">@color/soft_blue_lightest</item> <item name="colorSurfaceContainerHighest">@color/soft_blue_lighter</item> <item name="colorOutline">@color/grey_light</item>
+        <item name="colorOutlineVariant">@color/grey_lighter</item>
+
+        <item name="android:statusBarColor">@color/app_background_light</item> <item name="android:windowLightStatusBar" tools:targetApi="m">true</item> <item name="android:navigationBarColor">@color/app_background_light</item> <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+
+        <item name="textAppearanceDisplayLarge">@style/TextAppearance.App.DisplayLarge</item>
+        <item name="textAppearanceDisplayMedium">@style/TextAppearance.App.DisplayMedium</item>
+        <item name="textAppearanceDisplaySmall">@style/TextAppearance.App.DisplaySmall</item>
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.App.HeadlineLarge</item>
+        <item name="textAppearanceHeadlineMedium">@style/TextAppearance.App.HeadlineMedium</item>
+        <item name="textAppearanceHeadlineSmall">@style/TextAppearance.App.HeadlineSmall</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.App.TitleLarge</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.App.TitleMedium</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.App.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.App.BodyMedium</item>
+        <item name="textAppearanceBodySmall">@style/TextAppearance.App.BodySmall</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.App.LabelLarge</item> <item name="materialCardViewStyle">@style/Widget.App.CardView.Elevated</item> <item name="materialButtonStyle">@style/Widget.App.Button</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.App.Button.Outlined</item>
+        <item name="textPrimaryColor">?attr/colorOnSurface</item>
+        <item name="textSecondaryColor">?attr/colorOnSurfaceVariant</item>
+        <item name="iconTintNormal">?attr/colorOnSurfaceVariant</item> <item name="dividerColor">?attr/colorOutlineVariant</item> </style>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="280dp" android:layout_height="wrap_content"
+    style="@style/Widget.App.CardView.Filled" app:cardBackgroundColor="?attr/colorSurfaceContainerHighest" android:layout_marginStart="@dimen/spacing_small"
+    android:layout_marginEnd="@dimen/spacing_small"
+    android:layout_marginTop="@dimen/spacing_small"
+    android:layout_marginBottom="@dimen/spacing_large" android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardUseCompatPadding="false"> <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/spacing_large"> <de.hdodenhof.circleimageview.CircleImageView
+    android:id="@+id/lecturer_photo"
+    android:layout_width="@dimen/profile_image_size_large" android:layout_height="@dimen/profile_image_size_large" tools:src="@tools:sample/avatars"
+    android:layout_gravity="center_horizontal"
+    app:civ_border_width="@dimen/profile_image_border_width"
+    app:civ_border_color="?attr/colorPrimary"/> <TextView
+    android:id="@+id/lecturer_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:text="Dr. Nama Dosen, S.Kom., M.Cs."
+    android:textAppearance="@style/TextAppearance.App.TitleLarge" android:textColor="?attr/colorOnSurface" android:layout_gravity="center_horizontal"
+    android:textAlignment="center"
+    android:layout_marginTop="@dimen/spacing_medium"/>
+
+    <TextView
+        android:id="@+id/lecturer_expertise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Bidang Keahlian: AI, Machine Learning"
+        android:textAppearance="@style/TextAppearance.App.BodyMedium" android:textColor="?attr/colorOnSurfaceVariant" android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/spacing_small"/>
+
+    <TextView
+        android:id="@+id/lecturer_quote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="&quot;Pendidikan adalah kunci untuk membuka potensi tak terbatas dalam diri setiap individu.&quot;"
+        android:textAppearance="@style/TextAppearance.App.BodySmall" android:textStyle="italic"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/spacing_medium"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        android:lineSpacingMultiplier="@dimen/line_spacing_multiplier_body"/>
+
+    <TextView
+        android:id="@+id/lecturer_courses_taught"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Mengampu: Kecerdasan Buatan, Data Mining, Pengembangan Perangkat Lunak Lanjut"
+        android:textAppearance="@style/TextAppearance.App.LabelLarge" android:textColor="?attr/colorPrimary" android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/spacing_medium"
+        android:paddingTop="@dimen/spacing_small"
+        android:visibility="gone" tools:visibility="visible"/>
+</LinearLayout>
+</com.google.android.material.card.MaterialCardView>

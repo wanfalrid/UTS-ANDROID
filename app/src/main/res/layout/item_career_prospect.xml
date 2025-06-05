@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/Widget.App.CardView.Outlined" android:layout_margin="@dimen/spacing_small"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"> <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/spacing_medium">
+
+    <ImageView
+        android:id="@+id/career_icon"
+        android:layout_width="@dimen/icon_size_xlarge"
+        android:layout_height="@dimen/icon_size_xlarge"
+        android:layout_marginBottom="@dimen/spacing_medium"
+        android:contentDescription="@string/todo"
+        app:tint="?attr/colorPrimary"
+        tools:ignore="ImageContrastCheck"
+        tools:src="@drawable/ic_career_software_engineer" />
+
+    <TextView
+        android:id="@+id/career_job_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Software Engineer"
+        android:textAppearance="@style/TextAppearance.App.TitleMedium" android:textColor="?attr/colorOnSurface" android:layout_marginBottom="@dimen/spacing_small"/>
+
+    <TextView
+        android:id="@+id/career_salary_estimate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Estimasi Gaji: Rp 8jt - 20jt"
+        android:textAppearance="@style/TextAppearance.App.BodySmall" android:textColor="?attr/colorOnSurfaceVariant" android:layout_marginBottom="@dimen/spacing_small"/>
+
+    <TextView
+        android:id="@+id/career_relevance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.App.LabelLarge"
+        android:textColor="#0277BD"
+        android:textStyle="italic"
+        tools:text="Relevansi: Sangat Tinggi" /> </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

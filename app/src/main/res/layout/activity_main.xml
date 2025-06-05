@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorSurfaceContainerLowest" tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorSurface" app:elevation="@dimen/elevation_low"> <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        style="@style/Widget.App.Toolbar"> <ImageView
+        android:id="@+id/logo_jurusan_toolbar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_logo_pei" android:contentDescription="@string/logo_jurusan_rpl_pei"
+        android:layout_gravity="start|center_vertical"
+        android:layout_marginStart="@dimen/spacing_medium"/>
+
+        <TextView
+            android:id="@+id/toolbar_title_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" android:text="@string/profil_jurusan_rpl" android:textAppearance="@style/TextAppearance.App.TitleLarge" android:textColor="?attr/colorOnSurface"/>
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/theme_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginEnd="@dimen/spacing_medium"
+            style="@style/Widget.App.Switch" android:contentDescription="@string/toggle_mode_gelap_atau_terang"/>
+
+    </com.google.android.material.appbar.MaterialToolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nested_scroll_view" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_marginBottom="?attr/actionBarSize"> <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include android:id="@+id/sectionHero" layout="@layout/section_hero" />
+        <include android:id="@+id/sectionAbout" layout="@layout/section_about" />
+        <include android:id="@+id/sectionCurriculumCompetencies" layout="@layout/section_curriculum_competencies" />
+        <include android:id="@+id/sectionFavoriteCourses" layout="@layout/section_favorite_courses" />
+        <include android:id="@+id/sectionLecturers" layout="@layout/section_lecturers" />
+        <include android:id="@+id/sectionFacilities" layout="@layout/section_facilities" />
+        <include android:id="@+id/sectionTestimonials" layout="@layout/section_testimonials" />
+        <include android:id="@+id/sectionPromoVideo" layout="@layout/section_promo_video" />
+        <include android:id="@+id/sectionCareerProspects" layout="@layout/section_career_prospects" />
+        <include android:id="@+id/sectionIndustryPartners" layout="@layout/section_industry_partners" />
+        <include android:id="@+id/sectionCtaFooter" layout="@layout/section_cta_footer" />
+        <include android:id="@+id/footerMain" layout="@layout/footer_main" />
+
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" style="@style/Widget.App.BottomNavigationView" app:menu="@menu/bottom_nav_menu" app:labelVisibilityMode="labeled"/> </androidx.coordinatorlayout.widget.CoordinatorLayout>

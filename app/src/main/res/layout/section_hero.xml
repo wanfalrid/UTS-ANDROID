@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="?attr/actionBarSize"
+    android:paddingBottom="@dimen/spacing_xlarge"
+    android:paddingHorizontal="@dimen/spacing_medium"
+    android:background="@drawable/hero_background_gradient">
+
+    <ImageView
+        android:id="@+id/hero_image"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/mahasiswa_belajar_rpl"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_flat_illustration_students"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <TextView
+        android:id="@+id/hero_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/jelajahi_dunia_teknologi_bersama_jurusan_rpl"
+        android:textAppearance="@style/TextAppearance.App.DisplayLarge" android:textColor="?attr/colorOnSurface" android:gravity="center"
+        android:layout_marginTop="@dimen/spacing_large"
+        app:layout_constraintTop_toBottomOf="@id/hero_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.9"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_lihat_kurikulum"
+        style="@style/Widget.App.Button" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lihat_kurikulum"
+        android:layout_marginTop="@dimen/spacing_large"
+        app:layout_constraintTop_toBottomOf="@id/hero_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_video_profil"
+        app:layout_constraintHorizontal_chainStyle="packed"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_video_profil"
+        style="@style/Widget.App.Button.Outlined" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/video_profil"
+        android:layout_marginStart="@dimen/spacing_medium"
+        app:layout_constraintTop_toTopOf="@id/btn_lihat_kurikulum"
+        app:layout_constraintStart_toEndOf="@id/btn_lihat_kurikulum"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

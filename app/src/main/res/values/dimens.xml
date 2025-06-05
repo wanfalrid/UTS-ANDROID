@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="spacing_xxsmall">2dp</dimen>
+    <dimen name="spacing_xsmall">4dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+    <dimen name="spacing_xxlarge">48dp</dimen>
+    <dimen name="spacing_xxxlarge">64dp</dimen>
+
+    <dimen name="font_size_caption">12sp</dimen>         <dimen name="font_size_body_small">13sp</dimen>      <dimen name="font_size_body_medium">14sp</dimen>     <dimen name="font_size_body_large">16sp</dimen>      <dimen name="font_size_button">14sp</dimen>          <dimen name="font_size_input_field">16sp</dimen>    <dimen name="font_size_subtitle">16sp</dimen>        <dimen name="font_size_title_medium">18sp</dimen>    <dimen name="font_size_title_large">20sp</dimen>     <dimen name="font_size_headline_small">22sp</dimen>  <dimen name="font_size_headline_medium">28sp</dimen> <dimen name="font_size_hero_title">36sp</dimen>      <dimen name="card_corner_radius_small">8dp</dimen>
+    <dimen name="card_corner_radius_medium">12dp</dimen>
+    <dimen name="card_corner_radius_large">16dp</dimen>
+
+    <dimen name="button_corner_radius">8dp</dimen>
+    <dimen name="button_height_small">40dp</dimen>
+    <dimen name="button_height_medium">48dp</dimen>
+    <dimen name="button_height_large">56dp</dimen>
+    <dimen name="button_padding_horizontal">@dimen/spacing_medium</dimen>
+    <dimen name="button_padding_vertical">@dimen/spacing_small</dimen>
+
+
+    <dimen name="profile_image_size_small">40dp</dimen>
+    <dimen name="profile_image_size_medium">60dp</dimen>
+    <dimen name="profile_image_size_large">80dp</dimen>
+    <dimen name="profile_image_border_width">2dp</dimen>
+
+    <dimen name="icon_size_small">16dp</dimen>
+    <dimen name="icon_size_medium">24dp</dimen> <dimen name="icon_size_large">32dp</dimen>
+    <dimen name="icon_size_xlarge">48dp</dimen>
+
+    <dimen name="toolbar_height">56dp</dimen> <dimen name="bottom_nav_height">56dp</dimen>
+
+    <dimen name="list_item_height_small">48dp</dimen>
+    <dimen name="list_item_height_medium">56dp</dimen>
+    <dimen name="list_item_height_large">72dp</dimen>
+
+    <dimen name="elevation_low">2dp</dimen>
+    <dimen name="elevation_medium">4dp</dimen>
+    <dimen name="elevation_high">8dp</dimen>
+
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="line_spacing_multiplier_body">1.2</dimen>
+    <dimen name="line_spacing_multiplier_heading">1.1</dimen>
+
+    <dimen name="m3_bottom_nav_item_active_indicator_width">64dp</dimen>
+    <dimen name="m3_bottom_nav_item_active_indicator_height">32dp</dimen>
+    <dimen name="m3_bottom_nav_item_active_indicator_margin_horizontal">4dp</dimen>
+</resources>
